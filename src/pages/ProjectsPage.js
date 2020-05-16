@@ -1,30 +1,43 @@
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
-import Project from "../components/Project";
+import { Container } from "react-bootstrap";
+//import {Navbar, Nav} from 'react-bootstrap';
 
-function ProjectsPage() {
-  return (
-    <Container>
-      <div className="homework">
-        <Row>
-          <Col xs={6}>
-            {" "}
-            <Project
-              title={"Classroom Self Check In"}
-              link="https://kayla8693.github.io/classroom-self-checkin"
-            />
-          </Col>
-          <Col xs={6}>
-            {" "}
-            <Project
-              title={"Quarantine Shopping App"}
-              link="https://github.com/nwuerz/webstore"
-            />
-          </Col>
-        </Row>
-      </div>
-    </Container>
-  );
+function Project(props){
+    return (
+      <Container>
+        <div>
+          <p>{props.title}</p>
+            <a
+              className="nav-link"
+              id="project"
+              href={props.link}
+            >
+              Quarantine Shopping App
+            </a>
+            <a
+              className="nav-link"
+              id="project"
+              href="https://doomsday-webstore.herokuapp.com/"
+            >Live Link
+            </a>
+        </div>
+
+        <div>
+          <p>{props.title}</p>
+          <a 
+            className="nav-link"
+            id="project"
+            href={props.link}
+            >Classroom Self Check In</a>
+            <a
+              className="nav-link"
+              id="project"
+              href="https://kayla8693.github.io/classroom-self-checkin"
+            >Live Link
+            </a>
+        </div>
+      </Container>
+    )
 }
 
-export default ProjectsPage;
+export default Project;
