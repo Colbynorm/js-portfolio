@@ -14,11 +14,6 @@ function ProjectsPage() {
               link="https://kayla8693.github.io/classroom-self-checkin"
             />
           </Col>
-          {/* <Col xs={6}>
-              {" "}
-              <Project />
-          </Col> */}
-          
           <Col xs={6}>
             {" "}
             <Project
@@ -26,10 +21,6 @@ function ProjectsPage() {
               link="https://github.com/nwuerz/webstore"
             />
           </Col>
-          {/* <Col xs={6}>
-            {" "}
-            <Project />
-          </Col> */}
         </Row>
       </div>
     </Container>
