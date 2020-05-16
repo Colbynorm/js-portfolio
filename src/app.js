@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { Col, Row, Container, Navbar, Nav } from "react-bootstrap";
 import "./app.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Contact from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -13,15 +14,15 @@ function App() {
     <Router>
       <div>
         <Header/>
-        <Switch>
-          <Route exact path="/">
+          <Switch>
+            <Route exact path="/">
               <h1>home page</h1>
-          </Route>
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/projects" component={ProjectsPage} />
-          <Route path="/homework" component={HomeworkPage} /> */}
-        </Switch>
-        {/* Footer */}
+            </Route>
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/projects" component={ProjectsPage} />
+            <Route path="/homework" component={HomeworkPage} /> */}
+          </Switch>
+        <Footer/>
       </div>
     </Router>
   );
