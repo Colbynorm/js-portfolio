@@ -16,7 +16,11 @@ function App() {
         <Header/>
           <Switch>
             <Route exact path="/">
-              <h1>home page</h1>
+              <h1>Welcome To My React Portfolio!</h1>
+              <h4>Hi! My name is Colby Norman. I am a new up and coming full-stack web developer.
+                  I am currently enrolled in a course at SMU in Dallas, TX, learning front-end and back-end web development.
+                  Outside of class my hobbies include working out, reading, and enjoying Rock n Roll music.
+              </h4>
             </Route>
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/projects" component={ProjectsPage} />
