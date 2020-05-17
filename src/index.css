@@ -1,0 +1,12 @@
+.body {
+    background-color: lightgrey;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#project, #homework {
+    font-size: large;
+}

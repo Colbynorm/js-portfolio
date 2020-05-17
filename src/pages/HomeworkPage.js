@@ -23,6 +23,26 @@ function Homework(props) {
             >Live Link To App
             </a>
         </div>
+
+        <div>
+          <p>{props.title}</p>
+          <a className="nav-link" id="homework" href={props.link}>
+            Password Generator
+            </a>
+            <a className="nav-link" id="homework" href="https://colbynorm.github.io/password-generator/"
+            >Live Link To App
+            </a>
+        </div>
+
+        <div>
+          <p>{props.title}</p>
+          <a className="nav-link" id="homework" href={props.link}>
+            Workout Tracker
+            </a>
+            <a className="nav-link" id="homework" href="https://github.com/Colbynorm/workout-tracker"
+            >Link To Code
+            </a>
+        </div>
       </Container>
     )
 }

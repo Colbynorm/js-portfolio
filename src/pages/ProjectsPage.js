@@ -23,6 +23,15 @@ function Project(props){
               Live Link
             </a>
         </div>
+
+        <div>
+          <p>{props.title}</p>
+          <a className="nav-link" id="project" href={props.link}>
+            Medical App</a>
+            <a className="nav-link" id="project" href="https://github.com/marcustate/project-3">
+              Live Link
+            </a>
+        </div>        
       </Container>
     )
 }

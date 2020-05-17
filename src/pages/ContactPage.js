@@ -8,9 +8,6 @@ function Contact(){
         <Container>
             <div className = "body">
                 <Row>
-                    <Col xs={6} md={4}>
-                        <img scr = "../components/profilePic.jpg" alt="Profile Pic"></img>
-                    </Col>
                     <Col xs={12} md={8}>
                         <h4>Contact Me:</h4>
                         <p>Email: colbynorm41@gmail.com</p>

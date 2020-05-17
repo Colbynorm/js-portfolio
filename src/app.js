@@ -12,14 +12,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="body">
         <Header/>
           <Switch>
             <Route exact path="/">
               <h1>Welcome To My React Portfolio!</h1>
+
+                <img scr = "./components/profilePic.jpg" alt="Profile Pic"></img>
+
               <h4>Hi! My name is Colby Norman. I am a new up and coming full-stack web developer.
                   I am currently enrolled in a course at SMU in Dallas, TX, learning front-end and back-end web development.
                   Outside of class my hobbies include working out, reading, and enjoying Rock n Roll music.
+              </h4>
+              <h4>
+                I currently work with Javascript in my coding and also incorporate libraries like React, Express and Handlebars.
+                In my homeworks and projects I have learned to use databases such as MYSQL and MongoDB.
+                In other applications I have learned to use AJAX and JSON, HTML and CSS, NodeJS and much more in my learning to become a fullstack web developer.
               </h4>
             </Route>
             <Route exact path="/contact" component={Contact} />
