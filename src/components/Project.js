@@ -5,7 +5,7 @@ function Project(props) {
     <div>
       <p id={props.id}>{props.title}</p>
       <a className="nav-link" id={props.id} href={props.link}>
-        Live Link To App
+        Link To App
       </a>
     </div>
   );
