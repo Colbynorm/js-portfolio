@@ -17,9 +17,9 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/">
-            <h1>Welcome To My React Portfolio!</h1>
+            <h1 className="header">Welcome To My React Portfolio!</h1>
 
-            <img src={profilePic} alt="Profile Pic"></img>
+            <img className="profilePic" src={profilePic} alt="Profile Pic"></img>
 
             <h4>
               Hi! My name is Colby Norman. I am a new up and coming full-stack
