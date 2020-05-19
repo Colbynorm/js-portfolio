@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project(props) {
+function Homework(props) {
   return (
     <div>
       <p id={props.id}>{props.title}</p>
@@ -11,4 +11,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+export default Homework;

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-//import {Navbar, Nav} from 'react-bootstrap';
 import Project from "../components/Project";
 import projectsArr from "../projects.json";
 

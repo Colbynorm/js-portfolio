@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import resume from "./Resume.pdf";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,14 +9,9 @@ function Header() {
       <Nav className="mr-auto">
         <Nav.Link href="https://github.com/Colbynorm">GitHub</Nav.Link>
         <Nav.Link href={resume}>Resume</Nav.Link>
-        {/* <Nav.Link href="./Resume.pdf">Resume</Nav.Link> */}
-        <Nav.Link href="https://www.linkedin.com/in/colby-norman/">
-          LinkedIn
-        </Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/colby-norman/">LinkedIn</Nav.Link>
         <Nav.Link href="/projects">Projects</Nav.Link>
-        {/* <Nav.Link>
-          <Link to="/homework">Homework</Link>
-        </Nav.Link> */}
+        <Nav.Link href="/homework">Homework</Nav.Link>
       </Nav>
     </Navbar>
   );

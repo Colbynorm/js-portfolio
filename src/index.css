@@ -9,4 +9,6 @@
 
 #project, #homework {
     font-size: large;
+    text-align: center;
+    margin: 20px;
 }
