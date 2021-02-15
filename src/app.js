@@ -9,11 +9,12 @@ import ProjectsPage from "./pages/ProjectsPage";
 import HomeworkPage from "./pages/HomeworkPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profilePic from "./components/profilePic.jpg";
+import background from "./components/newBackground.jpg";
 
 function App() {
   return (
     <Router>
-      <div className="body">
+      <div className="body" style={{ backgroundImage: `url(${background})` }}>
         <Header />
         <Switch>
           <Route exact path="/">
@@ -21,14 +22,14 @@ function App() {
 
             <img className="profilePic" src={profilePic} alt="Profile Pic"></img>
 
-            <h4>
+            <h4 class="intro">
               Hi! My name is Colby Norman. I am a new up and coming full-stack
               web developer. I am currently enrolled in a course at SMU in
               Dallas, TX, learning front-end and back-end web development.
               Outside of class my hobbies include working out, reading, and
               enjoying Rock n Roll music.
             </h4>
-            <h4>
+            <h4 class="intro">
               I currently work with Javascript in my coding and also incorporate
               libraries like React, Express and Handlebars. In my homeworks and
               projects I have learned to use databases such as MYSQL and

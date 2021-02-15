@@ -1,6 +1,12 @@
 .body {
-    background-color: lightgrey;
     text-align: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.intro{
+    background-color: white;
+    /* width: 500px; */
 }
 
 #footer {

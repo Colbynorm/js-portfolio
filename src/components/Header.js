@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import resume from "./Resume.pdf";
+import resume from "./resume.docx";
 
 function Header() {
   return (
