@@ -3,15 +3,21 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color: black; */
     color: white;
     text-align: center;
 }
 
-.header {
-    /* background-color: black; */
-}
-
 body {
     background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.card {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
