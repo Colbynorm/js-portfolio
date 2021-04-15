@@ -12,7 +12,7 @@
     <title>My Portfolio</title>
 </head>
 <body>
-
+    <!-- header -->
     <header class="header">
         <nav class="navbar navbar-dark bg-dark">
             <a class="nav-link"href="index.html">Home</a>
@@ -20,14 +20,48 @@
         </nav>
     </header>
 
-    <div class="card">
+    <!-- intro -->
+    <div class="card shadow p-3 mb-5 bg-white rounded">
         <div class="card-body">
             <p>Welcome to my Portfolio!</p>
                 </br>
-            <p> Below are a few small projects that I have worked on!</p>
+            <p>Below are a couple small projects that I have worked on!</p>
+                </br>
+            <p>Please visit my GitHub page and view all of my other projects I have done!</p>
         </div>
     </div>
-    
+
+    <!-- projects -->
+    <container>
+        <div class="row">
+            <!-- lotr game card -->
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">LOTR Game</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">A LARP game built using JS</h6>
+                            <p class="card-text">The game allows you to pick your LOTR fighter and you will go up against a random enemy!</p>
+                            <a href="https://github.com/Colbynorm/lotr-js-game" class="card-link">Code!</a>
+                            <a href="./projects/lotr/lotr-js-game/index.html" class="card-link">Play Now!</a>
+                        </div>
+                </div>
+            </div>
+            <!-- calculator card -->
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">A simple calculator using JS</h6>
+                            <p class="card-text">This is a cool Desktop calculator that I created!</p>
+                            <a href="https://github.com/Colbynorm/easy-calculator" class="card-link">Code!</a>
+                            <a href="./projects/calculator/easy-calculator/index.html" class="card-link">Math Now!</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </container>
+
+    <!-- footer -->
     <div class="footer">
         <p class="fst-italic">Colby Norman 2021</p>
     </div>
